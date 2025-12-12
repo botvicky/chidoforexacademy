@@ -107,14 +107,17 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
-            <Link href="#home" className="flex items-center gap-2 group">
+            <Link href="#home" className="flex items-center gap-3 group">
               <Image
                 src="/logo.png"
                 alt="Chido FX Academy"
-                width={150}
-                height={40}
-                className="h-10 w-auto"
+                width={200}
+                height={56}
+                className="h-14 w-auto"
               />
+              <span className="text-white font-bold text-xl tracking-tight">
+                <span className="text-[var(--primary)]">CHIDO FX</span> Academy
+              </span>
             </Link>
 
             {/* Desktop Navigation */}
