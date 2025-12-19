@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/heliyjap/nextjs_app
+    - /bin/cp -R * $DEPLOYPATH
